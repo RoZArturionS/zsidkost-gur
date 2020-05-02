@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*--------------------*/
+.conteiner {
+   height: 100%;
+  max-width: 100%;
+  margin: 0px auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  position: relative;
+text-shadow: 0px 2px 5px #fff;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+.conteiner1 img{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right:  0;
+  max-width:  700px;
+  opacity: 0.50;
+}
+.nachalo {
+max-width: 65%;
+height: 100%;
+}
+.nachalo img{
+  height: 100%;
+  max-width:  700px;
+  opacity: 0.70;
+  padding-left: 70px;
+}
+.nachalo h1{
+  text-align: center;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5%;
+}
+.nachalo p{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5%;
+  text-align: center;
+  line-height: 150%;
+  z-index: 1;
+}
